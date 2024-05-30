@@ -1,0 +1,78 @@
+:root {
+  --primary: #990000;
+  --secondary: #757575;
+  --text: #1f1f1f;
+  --nav-background: #cccccc;
+  --body-background: #f2f2f2;
+}
+
+main {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+div > h6 {
+  width: min-content;
+  color: white;
+}
+
+button:active {
+  background-color: var(--primary);
+}
+
+.holder {
+  display: flex;
+  height: 100%;
+}
+
+.page-toolbar {
+  padding: 16px;
+}
+
+.dialog-actions {
+  justify-content: space-between;
+  padding: 0 24px 20px 24px;
+}
+
+.dialog-item {
+  flex-grow: 1;
+}
+
+#toolbar {
+  background-color: #757575;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: none;
+  color: white;
+  padding: 0 16px 0 16px;
+  height: 8vh;
+}
+
+#toolbar > button {
+  color: white;
+}
+
+#toolbar > button:hover {
+  cursor: default;
+}
+
+table {
+  overflow-x: scroll;
+}
+
+.button-column {
+  width: 50px;
+}
+
+.table-toolbar {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+}

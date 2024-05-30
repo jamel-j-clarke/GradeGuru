@@ -1,0 +1,58 @@
+:root {
+  --primary: #990000;
+  --secondary: #757575;
+  --text: #1f1f1f;
+  --nav-background: #cccccc;
+  --body-background: #f2f2f2;
+}
+
+.icon svg {
+  color: var(--text);
+}
+
+#sidebar {
+  box-shadow: #1f1f1f;
+}
+
+#sidebar-toolbar {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--primary);
+  padding: 0;
+}
+
+#sdc-sidebar-title {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: normal;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+#sidebar-user-info {
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+#sidebar-name {
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+#sidebar-email {
+  opacity: 0.8;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+#sidebar-buttons {
+  background-color: var(--body-background);
+}
+
+.white-space {
+  flex: 1;
+  background-color: var(--body-background);
+}
